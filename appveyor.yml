@@ -5,7 +5,7 @@ branches:
   - master
 before_build:
   # Display minimal restore text
-  # - cmd: dotnet restore --verbosity m
+ - cmd: dotnet restore --verbosity m
 build:
   verbosity: minimal
 after_build:
