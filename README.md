@@ -2,6 +2,8 @@
 
 The Support Wheel of Fate is a software which automatically designates members in a team to support the business.
 
+In short, it was developed with C# .NET Core and Angular 6.
+
 ## Background
 
 At one of our companies, all engineers take it in turns to support the business for half a day at a time. This is affectionately known as BAU. The software should select two engineers at random to both complete a half day of support each.
