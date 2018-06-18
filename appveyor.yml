@@ -1,0 +1,26 @@
+version: '1.0.{build}'
+image: Visual Studio 2017
+branches:
+  only:
+  - master
+before_build:
+  # Display minimal restore text
+ - cmd: dotnet restore --verbosity m
+build:
+  verbosity: minimal
+after_build:
+  # For once the build has completed
+ - cmd: dotnet publish WheelOfFate.API --output %appveyor_build_folder%\dist
+artifacts:
+ - path: dist
+   name: SWOF
+clone_depth: 1
+test_script:
+  # restore packages for our unit tests
+  - cmd: dotnet restore ./WheelOfFate.Domain.Tests/WheelOfFate.Domain.Tests.csproj --verbosity m
+  # run the unit tests (requires changing into the test directory)
+  - cmd: cd WheelOfFate.Domain.Tests
+  - cmd: dotnet xunit
+on_finish :
+  # any cleanup in here
+deploy: off
