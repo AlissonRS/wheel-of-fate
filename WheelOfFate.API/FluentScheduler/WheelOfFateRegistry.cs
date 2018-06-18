@@ -13,7 +13,7 @@ namespace WheelOfFate.API.FluentScheduler
 
         public WheelOfFateRegistry(IServiceProvider applicationServices)
         {
-            this.Schedule(new CreateShiftsJob(applicationServices)).NonReentrant().ToRunNow().AndEvery(3).Seconds();
+            this.Schedule(new CreateShiftsJob(applicationServices)).NonReentrant().ToRunNow().AndEvery(12).Hours();
         }
 
     }

@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  wheeloffate.api:
+    image: ${DOCKER_REGISTRY}wheeloffateapi
+    build:
+      context: .
+      dockerfile: WheelOfFate.API\Dockerfile
