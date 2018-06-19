@@ -7,16 +7,16 @@ using WheelOfFate.Domain.Services.Contracts;
 
 namespace WheelOfFate.Messaging.Services
 {
-    public class AmazonAppSyncNotifierService : INotifierService
+    public class SignalRNotifierService : INotifierService
     {
         public async Task MaximumDailyShiftsNotBeingRespected(Engineer engineer, DateTime date, int numberOfShiftsAttempted)
         {
-            // should notify through Amazon AppSync
+            // should notify through SignalR
         }
 
         public async Task MinimumRestDaysNotBeingRespected(Engineer engineer, DateTime lastShift, DateTime attemptedShift)
         {
-            // should notify through Amazon AppSync
+            // should notify through SignalR
         }
     }
 }

@@ -49,7 +49,7 @@ namespace WheelOfFate.API
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 
             services.AddScoped<IWheelOfFateService, WheelOfFateService>();
-            services.AddScoped<INotifierService, AmazonAppSyncNotifierService>();
+            services.AddScoped<INotifierService, SignalRNotifierService>();
 
             services.AddScoped<ITeamRepository, TeamRepository>();
             services.AddScoped<SeedDatabase>();
