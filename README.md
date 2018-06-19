@@ -35,3 +35,4 @@ This is a solution just to start the project, but new features could be added, l
 - Selecting hour start/end for each shift (e.g first shift is from 8 pm to 12pm and second shift is from 2pm to 6pm)
 
 ...these are just ideas which could be brainstormed.
+
