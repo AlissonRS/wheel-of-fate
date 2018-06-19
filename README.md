@@ -6,7 +6,7 @@ The Support Wheel of Fate is a software which automatically designates members i
 
 Frontend: https://alissonrs.github.io/wheel-of-fate
 
-Backend: http://wheel-of-fate-api-wheel-of-fate-api.1d35.starter-us-east-1.openshiftapps.com/
+Backend: https://wheel-of-fate-api-wheel-of-fate-api.1d35.starter-us-east-1.openshiftapps.com/
 
 To play around, open the frontend URL, use this user and password:
 
