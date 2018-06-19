@@ -3351,7 +3351,7 @@ __webpack_require__.r(__webpack_exports__);
 // The list of file replacements can be found in `angular.json`.
 var environment = {
     production: false,
-    apiUrl: 'http://wheel-of-fate-api-wheel-of-fate-api.1d35.starter-us-east-1.openshiftapps.com/api/'
+    apiUrl: 'https://wheel-of-fate-api-wheel-of-fate-api.1d35.starter-us-east-1.openshiftapps.com/api/'
 };
 /*
  * In development mode, to ignore zone related error stack frames such as
