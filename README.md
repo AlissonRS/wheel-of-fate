@@ -1,6 +1,12 @@
 # The Support Wheel of Fate
 
+[![Build status](https://ci.appveyor.com/api/projects/status/v3xgd192h5jjc0af/branch/master?svg=true)](https://ci.appveyor.com/project/AlissonRS/wheel-of-fate/branch/master)
+
 The Support Wheel of Fate is a software which automatically designates members in a team to support the business.
+
+Frontend: https://alissonrs.github.io/wheel-of-fate
+
+Backend: http://wheel-of-fate-api-wheel-of-fate-api.1d35.starter-us-east-1.openshiftapps.com/
 
 In short, it was developed with C# .NET Core and Angular 6.
 
