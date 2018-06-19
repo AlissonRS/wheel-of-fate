@@ -10,10 +10,10 @@ Backend: http://wheel-of-fate-api-wheel-of-fate-api.1d35.starter-us-east-1.opens
 
 To play around, open the frontend URL, use this user and password:
 
-User: Admin
-Password: #Adm1n
+ - User: Admin
+ - Password: #Adm1n
 
-You'll notice a dropdown just above the calendar component. Select one team (e.g IT) in order to load the shifts for that team.
+You may notice a dropdown just above the calendar component. Select one team (e.g IT) in order to load the shifts for that team.
 
 In short, the solution was developed with C# .NET Core 2.0 and Angular 6.
 
